@@ -1,29 +1,28 @@
 # Acme Landing Page — Claude Code Demo
 
-Demo project for an internal screencast showing Claude Code building a landing page from a project spec.
+Demo project for an internal screencast introducing Claude Code. The screencast shows Claude implementing a dark mode feature on an existing landing page using a project spec (`CLAUDE.md`) and a feature request.
+
+[Watch the screencast](https://www.youtube.com/watch?v=lM_XL82zh1g)
 
 ## What's here
 
-- `CLAUDE.md` — Project spec and brand guidelines (the key artifact)
-- `assets/acme-logo.svg` — Acme Corp logo
-- No `index.html` — that's what Claude Code generates live during the demo
+- `CLAUDE.md` — Project definition: brand, tech stack, constraints
+- `index.html` — Existing Acme Corp landing page (burnt umber, Tailwind, single file)
+- `features/dark-mode-toggle.md` — Feature spec for the demo
+- `assets/` — Light and dark logo variants
 
-## How to use
+## Try it yourself
 
 1. Clone this repo
 2. Open the directory in Claude Code
-3. Try one of the demo prompts below
+3. Ask Claude to implement the feature:
 
-## Demo prompts
+> Read features/dark-mode-toggle.md and implement this feature
 
-**Build the page:**
+4. Open `index.html` in your browser — no server or build step needed
 
-> Build the Acme Corp homepage with a hero section, three feature cards, and a footer.
+## Resources
 
-**Iterate on it:**
-
-> Add a dark mode toggle to the header.
-
-## After generating
-
-Open `index.html` directly in your browser — no server or build step needed.
+- [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
+- [MIT — Effective prompts](https://mitsloanedtech.mit.edu/ai/basics/effective-prompts/)
+- [Palantir — Prompt engineering best practices](https://www.palantir.com/docs/foundry/aip/best-practices-prompt-engineering)
