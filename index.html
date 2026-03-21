@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Acme — Operations software for growing teams</title>
+  <title>Acme — Anvil logistics and supply chain management</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script>
@@ -11,6 +11,17 @@
       theme: {
         fontFamily: {
           sans: ['Inter', 'system-ui', 'sans-serif'],
+        },
+        extend: {
+          colors: {
+            umber: {
+              400: '#B87333',
+              500: '#A0522D',
+              600: '#8B4513',
+              800: '#6B3410',
+              900: '#4A2409',
+            }
+          }
         }
       }
     }
@@ -23,22 +34,22 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
       <img src="assets/acme-logo.svg" alt="Acme" class="h-8">
       <div class="hidden sm:flex items-center gap-8 text-sm font-medium text-gray-600">
-        <a href="#features" class="hover:text-blue-600 transition-colors">Features</a>
-        <a href="#pricing" class="hover:text-blue-600 transition-colors">Pricing</a>
-        <a href="#contact" class="hover:text-blue-600 transition-colors">Contact</a>
-        <a href="#" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-800 transition-colors">Get Started</a>
+        <a href="#features" class="hover:text-umber-600 transition-colors">Features</a>
+        <a href="#pricing" class="hover:text-umber-600 transition-colors">Pricing</a>
+        <a href="#contact" class="hover:text-umber-600 transition-colors">Contact</a>
+        <a href="#" class="bg-umber-600 text-white px-4 py-2 rounded-lg hover:bg-umber-800 transition-colors">Get Started</a>
       </div>
-      <button id="mobile-menu-btn" class="sm:hidden p-2 text-gray-600 hover:text-blue-600" aria-label="Open menu" aria-expanded="false">
+      <button id="mobile-menu-btn" class="sm:hidden p-2 text-gray-600 hover:text-umber-600" aria-label="Open menu" aria-expanded="false">
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
         </svg>
       </button>
     </div>
     <div id="mobile-menu" class="hidden sm:hidden border-t border-gray-100 px-4 py-4 space-y-3 text-sm font-medium text-gray-600">
-      <a href="#features" class="block hover:text-blue-600 transition-colors">Features</a>
-      <a href="#pricing" class="block hover:text-blue-600 transition-colors">Pricing</a>
-      <a href="#contact" class="block hover:text-blue-600 transition-colors">Contact</a>
-      <a href="#" class="block bg-blue-600 text-white px-4 py-2 rounded-lg text-center hover:bg-blue-800 transition-colors">Get Started</a>
+      <a href="#features" class="block hover:text-umber-600 transition-colors">Features</a>
+      <a href="#pricing" class="block hover:text-umber-600 transition-colors">Pricing</a>
+      <a href="#contact" class="block hover:text-umber-600 transition-colors">Contact</a>
+      <a href="#" class="block bg-umber-600 text-white px-4 py-2 rounded-lg text-center hover:bg-umber-800 transition-colors">Get Started</a>
     </div>
   </nav>
 
@@ -46,14 +57,14 @@
   <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
     <div class="max-w-2xl">
       <h1 class="text-4xl sm:text-5xl font-bold tracking-tight text-gray-800 leading-tight">
-        Operations software for growing teams
+        Anvil logistics and supply chain management
       </h1>
       <p class="mt-6 text-lg text-gray-600 leading-relaxed">
-        Acme gives your team one place to manage projects, track work, and ship on time. No sprawling toolchains. No setup headaches. Just the stuff that matters.
+        Acme gives your team one place to track shipments, manage inventory, and deliver on time. No spreadsheet chaos. No lost anvils. Just the stuff that matters.
       </p>
       <div class="mt-8 flex flex-col sm:flex-row gap-4">
-        <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded-lg text-center font-semibold hover:bg-blue-800 transition-colors">Start free trial</a>
         <a href="#" class="border border-gray-300 text-gray-700 px-6 py-3 rounded-lg text-center font-semibold hover:border-gray-400 transition-colors">See a demo</a>
+        <a href="#" class="bg-umber-600 text-white px-6 py-3 rounded-lg text-center font-semibold hover:bg-umber-800 transition-colors">Start free trial</a>
       </div>
     </div>
   </section>
@@ -65,19 +76,19 @@
       <p class="mt-4 text-gray-600 text-center max-w-xl mx-auto">Three things, done well. No feature bloat.</p>
       <div class="mt-12 grid sm:grid-cols-3 gap-8">
         <div class="bg-white rounded-xl p-6 shadow-sm">
-          <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center text-xl">📋</div>
-          <h3 class="mt-4 font-semibold text-lg">Project Tracking</h3>
-          <p class="mt-2 text-gray-600 text-sm leading-relaxed">Boards, lists, and timelines that adapt to how your team actually works. Not the other way around.</p>
+          <div class="w-10 h-10 bg-umber-900/10 rounded-lg flex items-center justify-center text-xl">📦</div>
+          <h3 class="mt-4 font-semibold text-lg">Shipment Tracking</h3>
+          <p class="mt-2 text-gray-600 text-sm leading-relaxed">Real-time visibility into every anvil, from warehouse to cliff edge. GPS, weight sensors, and ETA predictions.</p>
         </div>
         <div class="bg-white rounded-xl p-6 shadow-sm">
           <div class="w-10 h-10 bg-amber-100 rounded-lg flex items-center justify-center text-xl">⚡</div>
-          <h3 class="mt-4 font-semibold text-lg">Automations</h3>
-          <p class="mt-2 text-gray-600 text-sm leading-relaxed">Set rules once and stop doing the same busywork every sprint. Status updates, assignments, notifications — handled.</p>
+          <h3 class="mt-4 font-semibold text-lg">Route Optimization</h3>
+          <p class="mt-2 text-gray-600 text-sm leading-relaxed">Automated dispatch that accounts for terrain, gravity, and the occasional canyon. Fewer failed deliveries, every time.</p>
         </div>
         <div class="bg-white rounded-xl p-6 shadow-sm">
-          <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center text-xl">📊</div>
-          <h3 class="mt-4 font-semibold text-lg">Reporting</h3>
-          <p class="mt-2 text-gray-600 text-sm leading-relaxed">Real-time dashboards your leads will actually look at. Cycle time, throughput, blockers — no CSV exports required.</p>
+          <div class="w-10 h-10 bg-umber-900/10 rounded-lg flex items-center justify-center text-xl">📊</div>
+          <h3 class="mt-4 font-semibold text-lg">Inventory Intelligence</h3>
+          <p class="mt-2 text-gray-600 text-sm leading-relaxed">Know exactly how many anvils you have, where they are, and when to reorder. Dashboards your ops team will actually use.</p>
         </div>
       </div>
     </div>
@@ -94,24 +105,24 @@
           <p class="mt-2 text-gray-600 text-sm">Up to 10 users</p>
           <p class="mt-4 text-4xl font-bold">Free</p>
           <ul class="mt-6 space-y-3 text-sm text-gray-600">
-            <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">✓</span> Unlimited projects</li>
-            <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">✓</span> Basic automations</li>
-            <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">✓</span> Team dashboards</li>
+            <li class="flex items-start gap-2"><span class="text-umber-600 font-bold">✓</span> Unlimited projects</li>
+            <li class="flex items-start gap-2"><span class="text-umber-600 font-bold">✓</span> Basic automations</li>
+            <li class="flex items-start gap-2"><span class="text-umber-600 font-bold">✓</span> Team dashboards</li>
           </ul>
           <a href="#" class="mt-8 block text-center border border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:border-gray-400 transition-colors">Get started</a>
         </div>
-        <div class="border-2 border-blue-600 rounded-xl p-8 relative">
-          <span class="absolute -top-3 left-6 bg-blue-600 text-white text-xs font-semibold px-3 py-1 rounded-full">Popular</span>
+        <div class="border-2 border-umber-600 rounded-xl p-8 relative">
+          <span class="absolute -top-3 left-6 bg-umber-600 text-white text-xs font-semibold px-3 py-1 rounded-full">Popular</span>
           <h3 class="font-semibold text-lg">Team</h3>
           <p class="mt-2 text-gray-600 text-sm">Unlimited users</p>
           <p class="mt-4 text-4xl font-bold">$12<span class="text-lg font-normal text-gray-500">/user/mo</span></p>
           <ul class="mt-6 space-y-3 text-sm text-gray-600">
-            <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">✓</span> Everything in Starter</li>
-            <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">✓</span> Advanced automations</li>
-            <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">✓</span> Custom reports</li>
-            <li class="flex items-start gap-2"><span class="text-blue-600 font-bold">✓</span> Priority support</li>
+            <li class="flex items-start gap-2"><span class="text-umber-600 font-bold">✓</span> Everything in Starter</li>
+            <li class="flex items-start gap-2"><span class="text-umber-600 font-bold">✓</span> Advanced automations</li>
+            <li class="flex items-start gap-2"><span class="text-umber-600 font-bold">✓</span> Custom reports</li>
+            <li class="flex items-start gap-2"><span class="text-umber-600 font-bold">✓</span> Priority support</li>
           </ul>
-          <a href="#" class="mt-8 block text-center bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors">Start free trial</a>
+          <a href="#" class="mt-8 block text-center bg-umber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-umber-800 transition-colors">Start free trial</a>
         </div>
       </div>
     </div>
@@ -122,7 +133,7 @@
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h2 class="text-2xl sm:text-3xl font-bold">Ready to get started?</h2>
       <p class="mt-4 text-gray-600 max-w-xl mx-auto">Drop us a line. We'll set up a demo for your team in under 15 minutes.</p>
-      <a href="mailto:hello@acme.example.com" class="mt-8 inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition-colors">Contact us</a>
+      <a href="mailto:hello@acme.example.com" class="mt-8 inline-block bg-umber-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-umber-800 transition-colors">Contact us</a>
     </div>
   </section>
 
