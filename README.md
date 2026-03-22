@@ -23,6 +23,6 @@ Demo project for an internal screencast introducing Claude Code. The screencast 
 
 ## Resources
 
-- [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
 - [MIT — Effective prompts](https://mitsloanedtech.mit.edu/ai/basics/effective-prompts/)
-- [Palantir — Prompt engineering best practices](https://www.palantir.com/docs/foundry/aip/best-practices-prompt-engineering)
+- [Claude Code best practices](https://code.claude.com/docs/en/best-practices)
+- [Claude — Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)
