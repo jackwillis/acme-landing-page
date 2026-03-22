@@ -1,6 +1,6 @@
 # Acme Landing Page — Claude Code Demo
 
-Demo project for an internal screencast introducing Claude Code. The screencast shows Claude implementing a dark mode feature on an existing landing page using a project spec (`CLAUDE.md`) and a feature request.
+Demo project for a screencast introducing Claude Code. The screencast shows Claude implementing a dark mode feature on an existing landing page using a project spec (`CLAUDE.md`) and a feature request.
 
 [Watch the screencast](https://www.youtube.com/watch?v=lM_XL82zh1g)
 
